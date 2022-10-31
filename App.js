@@ -1,20 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+// For using Expo
+import React from 'react';
+import AppRouter from './src/app/views/App.router';
+import { useEffect } from 'react';
+import { LoadModels } from './src/app/utils/StartupService/StartupService';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+const App = () => {
+  function componentDidMount() {
+    LoadModels();
+  }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+  useEffect(componentDidMount, []);
+
+  return <AppRouter />;
+};
+
+export default App;
