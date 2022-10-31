@@ -1,4 +1,4 @@
-const { bigData } = require('./data');
+//const { bigData } = require('./data');
 const { smallData } = require('./small-data');
 
 const express = require('express');
@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(cors(corsOptions));
 
 app.get('/chargers', (req, res) => {
-  res.status(200).send(bigData);
+  res.status(200).send(smallData);
 });
 
 app.get('/chargers/small-data', (req, res) => {
