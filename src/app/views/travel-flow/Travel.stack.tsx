@@ -8,7 +8,6 @@ import {
 
 const Stack = createNativeStackNavigator();
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function TravelStack({ navigation }) {
   return (
     <Stack.Navigator

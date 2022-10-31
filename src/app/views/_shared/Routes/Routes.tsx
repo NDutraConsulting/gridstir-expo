@@ -21,5 +21,6 @@ export enum Routes {
   Memberships = 'Memberships',
   Map = 'Map',
   ChargerStation = 'ChargerStation',
-  DashboardCharge = "DashboardCharge"
+  DashboardCharge = "DashboardCharge",
+  Stats = "Stats"
 }

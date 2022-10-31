@@ -6,7 +6,6 @@ import { RewardsHome, RewardsRoute } from './screens/RewardsHome.screen';
 
 const Stack = createNativeStackNavigator();
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function RewardsStack({ navigation }) {
   return (
     <Stack.Navigator

@@ -58,7 +58,7 @@ function renderInfo(currentPublicCharger) {
   ) {
     return <Text>No Station Selected</Text>;
   }
-  // G  ID: 126472
+  // LOG  ID: 126472
   // LOG  Title: Norbury Station
   // LOG  AddressLine1: Norbury Avenue
   // LOG  Town: Norbury

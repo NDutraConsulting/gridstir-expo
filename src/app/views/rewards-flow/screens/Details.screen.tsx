@@ -5,7 +5,6 @@ import { styles } from '../../../../brand/styles/style';
 
 export const DetailsRoute: Routes = Routes.RewardsDetails;
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function Details({ navigation }) {
   return (
     <View style={styles.container}>

@@ -8,7 +8,6 @@ import { Stats, StatsRoute } from './screens/Stats.screen';
 
 const Stack = createNativeStackNavigator();
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function ProfileStack({ navigation }) {
   return (
     <Stack.Navigator
